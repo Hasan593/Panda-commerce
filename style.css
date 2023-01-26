@@ -18,6 +18,8 @@
     border-radius: 8px;
     border: none;
     padding: 9px 18px;
+    color: white;
+    text-decoration: none;
     cursor: pointer;
 }
 .cata, .catb, .catc {
@@ -25,7 +27,7 @@
     border-radius: 10px;
 }
 .cata {
-    background: orange;
+    background-image: linear-gradient(to left, orange 0%, #ff136f 100%);
 }
 .catb {
     background: orchid;
@@ -38,4 +40,10 @@
 }
 .categories img {
     height: 100px;
+}
+.card-footer {
+    margin-bottom: 10px;    
+}
+.card {
+    box-shadow: 5px 5px 10px lightgray;
 }
