@@ -47,3 +47,9 @@
 .card {
     box-shadow: 5px 5px 10px lightgray;
 }
+.contact {
+    height: 300px;
+}
+.contact h6{
+    color: gray;
+}
